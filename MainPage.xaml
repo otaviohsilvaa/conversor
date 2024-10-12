@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConversorDeUnidades.MainPage">
+
+    <!-- Aba de Distância -->
+    <ContentPage Title="Distância">
+        <StackLayout Padding="10">
+            <Entry x:Name="entryValorDistancia" Placeholder="Digite o valor a ser convertido" Keyboard="Numeric"/>
+            <Picker x:Name="pickerOrigemDistancia" Title="Unidade de Origem">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Metros</x:String>
+                        <x:String>Quilômetros</x:String>
+                        <x:String>Milhas</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker x:Name="pickerDestinoDistancia" Title="Unidade de Destino">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Metros</x:String>
+                        <x:String>Quilômetros</x:String>
+                        <x:String>Milhas</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button Text="Converter" Clicked="ConverterDistancia"/>
+            <Label x:Name="labelResultadoDistancia" Text="Resultado da conversão" FontSize="Medium"/>
+        </StackLayout>
+    </ContentPage>
+
+    <!-- Aba de Peso -->
+    <ContentPage Title="Peso">
+        <StackLayout Padding="10">
+            <Entry x:Name="entryValorPeso" Placeholder="Digite o valor a ser convertido" Keyboard="Numeric"/>
+            <Picker x:Name="pickerOrigemPeso" Title="Unidade de Origem">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Gramas</x:String>
+                        <x:String>Quilogramas</x:String>
+                        <x:String>Libras</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker x:Name="pickerDestinoPeso" Title="Unidade de Destino">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Gramas</x:String>
+                        <x:String>Quilogramas</x:String>
+                        <x:String>Libras</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button Text="Converter" Clicked="ConverterPeso"/>
+            <Label x:Name="labelResultadoPeso" Text="Resultado da conversão" FontSize="Medium"/>
+        </StackLayout>
+    </ContentPage>
+
+    <!-- Aba de Temperatura -->
+    <ContentPage Title="Temperatura">
+        <StackLayout Padding="10">
+            <Entry x:Name="entryValorTemperatura" Placeholder="Digite o valor a ser convertido" Keyboard="Numeric"/>
+            <Picker x:Name="pickerOrigemTemperatura" Title="Unidade de Origem">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Celsius</x:String>
+                        <x:String>Fahrenheit</x:String>
+                        <x:String>Kelvin</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker x:Name="pickerDestinoTemperatura" Title="Unidade de Destino">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Celsius</x:String>
+                        <x:String>Fahrenheit</x:String>
+                        <x:String>Kelvin</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Button Text="Converter" Clicked="ConverterTemperatura"/>
+            <Label x:Name="labelResultadoTemperatura" Text="Resultado da conversão" FontSize="Medium"/>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
