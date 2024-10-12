@@ -12,35 +12,35 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConversorDeUnidades
-build_property.ProjectDir = C:\Users\otavi\Documents\Atividades\Mobile\Conversor\ConversorDeUnidades\
+build_property.ProjectDir = C:\Users\otavi\Documents\Atividades\Mobile\Conversor\ConversorDeUnidades\conversor\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/App.xaml]
+[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/conversor/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ConversorDeUnidades.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/AppShell.xaml]
+[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/conversor/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ConversorDeUnidades.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/MainPage.xaml]
+[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/conversor/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ConversorDeUnidades.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/Resources/Styles/Colors.xaml]
+[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/conversor/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ConversorDeUnidades.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/Resources/Styles/Styles.xaml]
+[C:/Users/otavi/Documents/Atividades/Mobile/Conversor/ConversorDeUnidades/conversor/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ConversorDeUnidades.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

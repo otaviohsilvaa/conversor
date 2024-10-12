@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l+xuq2rlCh8=",
+  "dgSpecHash": "qqVtkmG5gU4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\otavi\\Documents\\Atividades\\Mobile\\Conversor\\ConversorDeUnidades\\ConversorDeUnidades.csproj",
+  "projectFilePath": "C:\\Users\\otavi\\Documents\\Atividades\\Mobile\\Conversor\\ConversorDeUnidades\\conversor\\ConversorDeUnidades.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\otavi\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\otavi\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

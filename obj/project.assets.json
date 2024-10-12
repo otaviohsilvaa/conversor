@@ -33054,11 +33054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\otavi\\Documents\\Atividades\\Mobile\\Conversor\\ConversorDeUnidades\\ConversorDeUnidades.csproj",
+      "projectUniqueName": "C:\\Users\\otavi\\Documents\\Atividades\\Mobile\\Conversor\\ConversorDeUnidades\\conversor\\ConversorDeUnidades.csproj",
       "projectName": "ConversorDeUnidades",
-      "projectPath": "C:\\Users\\otavi\\Documents\\Atividades\\Mobile\\Conversor\\ConversorDeUnidades\\ConversorDeUnidades.csproj",
+      "projectPath": "C:\\Users\\otavi\\Documents\\Atividades\\Mobile\\Conversor\\ConversorDeUnidades\\conversor\\ConversorDeUnidades.csproj",
       "packagesPath": "C:\\Users\\otavi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\otavi\\Documents\\Atividades\\Mobile\\Conversor\\ConversorDeUnidades\\obj\\",
+      "outputPath": "C:\\Users\\otavi\\Documents\\Atividades\\Mobile\\Conversor\\ConversorDeUnidades\\conversor\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

@@ -7,7 +7,7 @@
     <ContentPage Title="Distância">
         <StackLayout Padding="10">
             <Entry x:Name="entryValorDistancia" Placeholder="Digite o valor a ser convertido" Keyboard="Numeric"/>
-            <Picker x:Name="pickerOrigemDistancia" Title="Unidade de Origem">
+            <Picker x:Name="pickerOrigemDistancia" Title="Unidade Base">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Metros</x:String>
@@ -16,7 +16,7 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            <Picker x:Name="pickerDestinoDistancia" Title="Unidade de Destino">
+            <Picker x:Name="pickerDestinoDistancia" Title="Para">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Metros</x:String>
@@ -34,7 +34,7 @@
     <ContentPage Title="Peso">
         <StackLayout Padding="10">
             <Entry x:Name="entryValorPeso" Placeholder="Digite o valor a ser convertido" Keyboard="Numeric"/>
-            <Picker x:Name="pickerOrigemPeso" Title="Unidade de Origem">
+            <Picker x:Name="pickerOrigemPeso" Title="Unidade Base">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Gramas</x:String>
@@ -43,7 +43,7 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            <Picker x:Name="pickerDestinoPeso" Title="Unidade de Destino">
+            <Picker x:Name="pickerDestinoPeso" Title="Para">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Gramas</x:String>
@@ -61,7 +61,7 @@
     <ContentPage Title="Temperatura">
         <StackLayout Padding="10">
             <Entry x:Name="entryValorTemperatura" Placeholder="Digite o valor a ser convertido" Keyboard="Numeric"/>
-            <Picker x:Name="pickerOrigemTemperatura" Title="Unidade de Origem">
+            <Picker x:Name="pickerOrigemTemperatura" Title="Unidade Base">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Celsius</x:String>
@@ -70,7 +70,7 @@
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
-            <Picker x:Name="pickerDestinoTemperatura" Title="Unidade de Destino">
+            <Picker x:Name="pickerDestinoTemperatura" Title="Para">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Celsius</x:String>
